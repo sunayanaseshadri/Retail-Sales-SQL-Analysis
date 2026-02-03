@@ -1,1 +1,12 @@
+customer_id,name,city,state,segment
+C001,Aarav Mehta,New York,NY,Consumer
+C002,Emma Johnson,Los Angeles,CA,Corporate
+C003,Rahul Sharma,Chicago,IL,Home Office
+C004,Olivia Brown,Houston,TX,Consumer
+C005,Daniel Lee,San Francisco,CA,Corporate
+C006,Ananya Patel,Atlanta,GA,Consumer
+C007,Michael Davis,Seattle,WA,Home Office
+C008,Sophia Wilson,Boston,MA,Consumer
+C009,Arjun Verma,Austin,TX,Corporate
+C010,Liam Martinez,Denver,CO,Consumer
 
