@@ -1,10 +1,9 @@
-SELECT 
-    p.category,
-    SUM(oi.sales) AS revenue,
-    SUM(oi.profit) AS profit,
-    ROUND(SUM(oi.profit)/SUM(oi.sales)*100, 2) AS profit_margin_pct
-FROM products p
-JOIN order_items oi ON p.product_id = oi.product_id
-GROUP BY p.category
-ORDER BY profit DESC;
-
+SELECT
+    o.ship_mode,
+    o.region,
+    ROUND(AVG(julianday(o.ship_date) - julianday(o.order_date)), 2) AS avg_shipping_days,
+    SUM(oi.sales) AS total_sales
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+GROUP BY o.ship_mode, o.region
+ORDER BY avg_shipping_days ASC;
