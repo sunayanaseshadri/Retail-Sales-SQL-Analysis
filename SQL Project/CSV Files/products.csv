@@ -1,0 +1,9 @@
+product_id,product_name,category,sub_category,cost_price,selling_price
+P001,Office Chair,Furniture,Chairs,120,220
+P002,Standing Desk,Furniture,Tables,250,450
+P003,Laptop Stand,Office Supplies,Accessories,20,45
+P004,Wireless Mouse,Technology,Accessories,10,30
+P005,Printer,Technology,Machines,180,350
+P006,Notebook Pack,Office Supplies,Paper,5,15
+P007,Conference Table,Furniture,Tables,400,750
+P008,Monitor 24-inch,Technology,Access
